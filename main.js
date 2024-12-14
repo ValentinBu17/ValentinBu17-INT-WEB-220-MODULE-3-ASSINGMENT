@@ -22,7 +22,7 @@ let contacts = [
     })
  }
 
- function manageStudents(){
+ function manageContacts(){
     let addMoreContacts = true;
     while(addMoreContacts && contacts.length < 10) {
         addContact();
@@ -43,6 +43,6 @@ let contacts = [
     }
 }
 
-manageStudents();
+manageContacts();
   
     
